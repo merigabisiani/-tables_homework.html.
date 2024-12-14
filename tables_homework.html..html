@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tables1.css">
+    <title>Tables</title>
+</head>
+<body>
+    <table border="1">
+        <caption>List of Participants</caption>
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Age</th>
+                <th scope="col">Email</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>Meri Gabisiani</td>
+                <td>29</td>
+                <td>Meri.gabisiani@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Ana Girkelidze</td>
+                <td>25</td>
+                <td>a.girkelidze@mail.ru</td>
+            </tr>
+            <tr>
+                <td>Keti Totibadze</td>
+                <td>30</td>
+                <td>keti.totibadze@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Tornike Tughushi</td>
+                <td>28</td>
+                <td>tornike.tughushi@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Vaxo Gabisiani</td>
+                <td>28</td>
+                <td>vaxo.gabisiani@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <table border="1">
+        <caption>Weekly Activity Schedule</caption>
+        <thead>
+            <th scope="col">Time</th>
+            <th scope="col">Monday</th>
+            <th scope="col">Tuesday</th>
+            <th scope="col">Wednesday</th>
+            <th scope="col">Thursday</th>
+            <th scope="col">Friday</th>
+            <th scope="col">Saturday</th>
+            <th scope="col">Sunday</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Morning</td>
+                <td rowspan="3" class="highlight">Yoga Class</td>
+                <td>Team Meeting</td>
+                <td>Team meeting</td>
+                <td>Work on Project</td>
+                <td>Work on Project</td>
+                <td>Weekend</td>
+                <td>Weekend</td>
+            </tr>
+            <tr>
+                <td>Afternoon</td>
+                <td colspan="2" class="highlight">Teem Meeting</td>
+                <td>Work on Project</td>
+                <td>Work on Project</td>
+                <td>Coffee Break</td>
+                <td>Free Time</td>
+                
+            </tr>
+            <tr>
+                <td>Evening</td>
+                <td>Gym</td>
+                <td>Gym</td>
+                <td>Gym</td>
+                <td class="highlight">Fun with Friends</td>
+                <td>Dinner with Friends</td>
+                <td>Free Time</td>
+                <td>Break</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table border="1">
+        <caption>Shopping Cart</caption>
+        <thead>
+            <tr>
+                <th scope="col" id="item">Item</th>
+                <th scope="col" id="quantity">Quantity</th>
+                <th scope="col" id="price">Price per Item</th>
+                <th scope="col" id="total">Total Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td headers="item">Apple</td>
+                <td headers="quantity">2</td>
+                <td headers="price">$3</td>
+                <td headers="ite">$6</td>
+            </tr>
+            <tr>
+                <td headers="item">Banana</td>
+                <td headers="quantity">5</td>
+                <td headers="price">$1</td>
+                <td headers="total">$5</td>
+            </tr>
+            <tr>
+                <td headers="item">Mango</td>
+                <td headers="quantity">4</td>
+                <td headers="price">$3</td>
+                <td headers="total">$12</td>
+            </tr>
+            <tr>
+                <td headers="item">Orange</td>
+                <td headers="quantity">4</td>
+                <td headers="price">$2.50</td>
+                <td headers="total">$10</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total</td>
+                <td>$33</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+   
+</body>
+</html>
